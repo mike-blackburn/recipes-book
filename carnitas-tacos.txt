@@ -5,6 +5,6 @@
 5. Assemble tacos as you see fit
 
 
-func generateRandomNumber() -> Double {
-  Double.random(in: 1...<10.0)
+func generateRandomNumber(upperValue: Double) -> Double {
+  Double.random(in: 1...<upperValue)
 }
