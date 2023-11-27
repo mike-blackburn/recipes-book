@@ -3,3 +3,8 @@
 3. Cool and shred that bad boy
 4. Fry on a frying pan for extra crunch and flavor
 5. Assemble tacos as you see fit
+
+
+func generateRandomNumber() -> Double {
+  Double.random(in: 1...<10.0)
+}
